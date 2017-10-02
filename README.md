@@ -5,8 +5,8 @@ watertight-ray-triangle-intersection [![npm version](https://badge.fury.io/js/wa
 
 ## Background / Initial Motivation
 
-I've been using [substack/ray-triangle-intersection](https://github.com/substack/ray-triangle-intersection) for some of my mouse picking, but
-Möller–Trumbore ray-triangle intersection algorithm that it uses does not satisfy my use case this time around.
+I've been using the stellar [substack/ray-triangle-intersection](https://github.com/substack/ray-triangle-intersection) module for some of my mouse picking, but
+the Möller–Trumbore ray-triangle intersection algorithm that it uses does not satisfy my use case this time around.
 
 I'm mousing over a grid based terrain and determining which tile in the terrain is moused over. Since the Möller–Trumbore algorithm isn't watertight,
 when I mouse in between two tiles neither tile is selected and thus it's as if you aren't mousing over the terrain at all.
