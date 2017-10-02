@@ -12,7 +12,7 @@ I'm mousing over a grid based terrain and determining which tile in the terrain 
 when I mouse in between two tiles neither tile is selected and thus it's as if you aren't mousing over the terrain at all.
 
 The goal of this `watertight-ray-triangle-intersection` module is to implement the algorithm found in the [Water Ray/Triangle Intersection](http://jcgt.org/published/0002/01/05/paper.pdf)
-in order to solve this problem for myself, and hopefully you too.
+paper in order to solve this problem for myself, and hopefully you too.
 
 ## To Install
 
