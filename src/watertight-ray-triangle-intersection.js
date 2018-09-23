@@ -114,6 +114,7 @@ function getWatertightIntersection (intersection, rayOrigin, ray, triangle, opts
 /**
  * As per the watertight ray/triangle intersection algorithm, calculate
  * the direction in which the ray is largest
+ * TODO: This is incorrect, supposed to be using absolute value
  */
 function getMaxAxis (ray) {
   if (ray[0] > ray[1]) {
